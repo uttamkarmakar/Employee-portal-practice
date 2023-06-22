@@ -1,0 +1,27 @@
+uuid: 59cae33a-d610-42a1-92cd-489bf69c354e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.salary_details
+  module:
+    - node
+    - toolbar
+    - tour
+id: hr
+label: HR
+weight: 4
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'access tour'
+  - 'administer content types'
+  - 'administer nodes'
+  - 'administer users'
+  - 'create salary_details content'
+  - 'delete any salary_details content'
+  - 'delete own salary_details content'
+  - 'delete salary_details revisions'
+  - 'edit any salary_details content'
+  - 'edit own salary_details content'

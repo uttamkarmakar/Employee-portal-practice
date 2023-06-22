@@ -1,0 +1,14 @@
+uuid: 51184ce9-97d4-45e0-8f9b-70eb3a162d8a
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user_name_token
+label: 'User Name Token'
+type: 'canonical_entities:user'
+pattern: '/user/[user:name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

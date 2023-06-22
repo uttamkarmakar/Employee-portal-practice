@@ -1,0 +1,30 @@
+uuid: 9803f62f-c118-445f-8f57-687eb7356623
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.last_processed_salary
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap5
+id: views_block__last_processed_salary_block_1
+theme: bootstrap5
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:last_processed_salary-block_1'
+settings:
+  id: 'views_block:last_processed_salary-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

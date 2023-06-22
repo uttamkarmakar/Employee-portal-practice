@@ -1,0 +1,9 @@
+_core:
+  default_config_hash: 0xE4emSSHTVKb88WL3yN2IahuH23p8VNAXMZNux6BKs
+method: 0
+pattern: innoraft.com
+message: 'This Email Domain is not allowed to register account for this site.'
+actions: null
+form_build_id: form-JxDCWV5UWcDz2JPR9jqj1rT-kcdNvg2TlRlNnNz6lsM
+form_token: E8h8hlSgaX_vAlL4tKN_VS8ByXJ0nLXuDNJ3BaVRSLQ
+form_id: domain_registration_admin_form
