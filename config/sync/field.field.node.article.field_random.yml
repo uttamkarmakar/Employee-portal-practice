@@ -1,0 +1,21 @@
+uuid: 3c3b0886-7eb9-4633-9582-1381e5dd46c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_random
+    - node.type.article
+id: node.article.field_random
+field_name: field_random
+entity_type: node
+bundle: article
+label: Random
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

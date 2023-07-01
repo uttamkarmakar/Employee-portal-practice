@@ -1,16 +1,14 @@
-uuid: 2654ee5e-0bd6-4257-9e5e-f1e9bb16cb7b
+uuid: e16eb2e3-d0da-4248-a43e-302b4b4cbbef
 langcode: en
-status: false
+status: true
 dependencies: {  }
-id: local
-label: Local
+id: coffee_split
+label: 'coffee split'
 description: ''
 weight: 0
-folder: ../config/local
+folder: ../config/coffee_split
 module:
-  devel: 0
-  views_ui: 0
-  webform_ui: 0
+  coffee: 0
 theme: {  }
 blacklist:
   - system.site
