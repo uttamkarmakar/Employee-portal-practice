@@ -1,0 +1,29 @@
+uuid: 3a1b861c-adb6-418a-9200-a6d3ab7936cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_salary_processed_status
+    - node.type.salary_details
+    - taxonomy.vocabulary.salary_status
+id: node.salary_details.field_salary_processed_status
+field_name: field_salary_processed_status
+entity_type: node
+bundle: salary_details
+label: 'Salary Processed Status'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      salary_status: salary_status
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

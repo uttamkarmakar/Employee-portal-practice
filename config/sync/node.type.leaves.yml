@@ -1,0 +1,18 @@
+uuid: de0b9fef-a8cc-465e-85d8-45c9d2d12585
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Leaves
+type: leaves
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

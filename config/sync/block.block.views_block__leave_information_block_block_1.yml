@@ -1,0 +1,30 @@
+uuid: 2206c779-a08c-4b7e-8952-fc9dece2db0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.leave_information_block
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap5
+id: views_block__leave_information_block_block_1
+theme: bootstrap5
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:leave_information_block-block_1'
+settings:
+  id: 'views_block:leave_information_block-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

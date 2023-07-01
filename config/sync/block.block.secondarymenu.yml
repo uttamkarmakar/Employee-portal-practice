@@ -1,0 +1,29 @@
+uuid: 05dcc9d8-29a4-4cf3-b2a8-fc67a2035479
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.secondary-menu
+  module:
+    - system
+  theme:
+    - olivero
+id: secondarymenu
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'system_menu_block:secondary-menu'
+settings:
+  id: 'system_menu_block:secondary-menu'
+  label: 'Secondary Menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

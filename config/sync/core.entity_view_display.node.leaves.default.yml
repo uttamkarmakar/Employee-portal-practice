@@ -1,0 +1,37 @@
+uuid: 541ed629-3d10-4423-8c0a-57e484be7002
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.leaves.field_employee_associated
+    - field.field.node.leaves.field_leave_type
+    - node.type.leaves
+  module:
+    - user
+id: node.leaves.default
+targetEntityType: node
+bundle: leaves
+mode: default
+content:
+  field_employee_associated:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_leave_type:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

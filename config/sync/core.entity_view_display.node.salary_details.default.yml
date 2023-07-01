@@ -1,0 +1,46 @@
+uuid: b7717501-e475-4107-925f-441aaf164306
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.salary_details.field_employee_associated
+    - field.field.node.salary_details.field_salary_breakup
+    - field.field.node.salary_details.field_salary_processed_status
+    - node.type.salary_details
+  module:
+    - user
+id: node.salary_details.default
+targetEntityType: node
+bundle: salary_details
+mode: default
+content:
+  field_employee_associated:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_salary_breakup:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_salary_processed_status:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

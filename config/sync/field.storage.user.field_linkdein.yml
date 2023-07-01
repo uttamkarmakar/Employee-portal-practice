@@ -1,0 +1,19 @@
+uuid: af1675f7-0f6b-4a8d-a25a-2640ebd8a5aa
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - user
+id: user.field_linkdein
+field_name: field_linkdein
+entity_type: user
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,40 @@
+uuid: 098bacaf-e942-4272-8654-20f077e21ee1
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.secondary-menu
+  module:
+    - system
+    - user
+  theme:
+    - bootstrap5
+id: secondarymenu_2
+theme: bootstrap5
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:secondary-menu'
+settings:
+  id: 'system_menu_block:secondary-menu'
+  label: 'Secondary Menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated
+      administrator: administrator
+      hr: hr
+      employee: employee

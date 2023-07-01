@@ -1,0 +1,17 @@
+uuid: e16eb2e3-d0da-4248-a43e-302b4b4cbbef
+langcode: en
+status: true
+dependencies: {  }
+id: coffee_split
+label: 'coffee split'
+description: ''
+weight: 0
+folder: ../config/coffee_split
+module:
+  coffee: 0
+theme: {  }
+blacklist:
+  - system.site
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true

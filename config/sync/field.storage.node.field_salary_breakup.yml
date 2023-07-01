@@ -1,0 +1,21 @@
+uuid: dd416ca9-847d-4857-9176-54479c441e29
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_salary_breakup
+field_name: field_salary_breakup
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

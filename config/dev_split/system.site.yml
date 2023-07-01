@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 229272a2-ee0d-42d0-848b-82ac814639d8
+name: 'Innoraft Employeement Management Portal'
+mail: uttam.karmakar@innoraft.com
+slogan: ''
+page:
+  403: /node/10
+  404: /node/9
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: uttam.karmakar@innoraft.com

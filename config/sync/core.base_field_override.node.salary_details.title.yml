@@ -1,0 +1,18 @@
+uuid: f25de351-e460-4a19-998a-bac87c7a9197
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.salary_details
+id: node.salary_details.title
+field_name: title
+entity_type: node
+bundle: salary_details
+label: 'Salary Details'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

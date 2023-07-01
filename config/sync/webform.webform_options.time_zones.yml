@@ -1,0 +1,14 @@
+uuid: acdb1b1c-3b17-407c-b638-8e4decf4ba68
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: 8rVcRXLnTAEoWs7zl8du-7RIUnayqUcGYnvb3JT21-o
+id: time_zones
+label: 'Time zones'
+category: 'Date and time'
+likert: false
+options: ''
